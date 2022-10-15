@@ -296,7 +296,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-cover {
-  height: 900px;
+  height: 100rem;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -322,7 +322,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
-  height: 900px;
+  height: 100rem;
   display: table;
   width: 100%;
 }
@@ -940,8 +940,8 @@ form label {
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 80px;
-  height: 80px;
+  width: 6rem;
+  height: 6rem;
  background: rgba(0, 0, 0, 0.3);
   margin: 0 4px;
   -webkit-border-radius: 50%;
@@ -967,8 +967,8 @@ form label {
   /* countdown block inner div */
   display: table-cell;
   vertical-align: middle;
-  height: 80px;
-  width: 80px;
+  height: 6rem;
+  width: 6rem;
 }
 
 .simply-countdown > .simply-section .simply-amount,
@@ -979,14 +979,14 @@ form label {
 }
 
 .simply-countdown > .simply-section .simply-amount {
-  font-size: 12px;
+  font-size: 1.5rem;
   /* amounts */
 }
 
 .simply-countdown > .simply-section .simply-word {
   color: rgba(255, 255, 255, 0.7);
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 1rem;
   /* words */
 }
 
