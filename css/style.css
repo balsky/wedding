@@ -1287,8 +1287,8 @@ form label {
 .feature-left .icon {
   float: left;
   margin-right: 5%;
-  width: 54px;
-  height: 54px;
+  width: 4rem;
+  height: 4rem;
   background: #fff;
   display: table;
   text-align: center;
@@ -1308,7 +1308,7 @@ form label {
 .feature-left .icon i {
   display: table-cell;
   vertical-align: middle;
-  font-size: 30px;
+  font-size: 24px;
   color: #B87333;
 }
 .feature-left .feature-copy {
