@@ -664,8 +664,8 @@
       });
 
       // BASE URL
-      const BASE_URL = "https://frozen-beyond-66664.herokuapp.com/";
       $(document).ready(() => {
+        const BASE_URL = "https://frozen-beyond-66664.herokuapp.com/";
         // GET data Wishes
         const wishesItem = ({ name, message, createdAt }) => `<div
         id="wishes-item"
@@ -693,10 +693,9 @@
             $("#wishes-list").html(elements);
           }
         });
-      });
-      // Post Wishes
-      const buttonLoading = `<span> <i class="fa fa-spinner fa-spin"></i> Loading </span>`;
-      $(document).ready(function () {
+
+        // Post Wishes
+        const buttonLoading = `<span> <i class="fa fa-spinner fa-spin"></i> Loading </span>`;
         $("#post-wishes").click(function (e) {
           e.preventDefault();
           const name = $("#name").val();
@@ -709,7 +708,7 @@
               post: message,
             })
               .then(({ data }) => {
-                $("#wishes-list").append(
+                $("#wishes-list").prepend(
                   wishesItem({
                     name: data.name,
                     message: data.post,
