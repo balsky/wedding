@@ -451,7 +451,7 @@
         <iframe
           width="100%"
           height="350rem"
-          src="https://www.youtube.com/embed/sVCA5ZGdpQ0?autoplay=1&playlist=sVCA5ZGdpQ0&loop=1"
+          src="https://www.youtube.com/embed/sVCA5ZGdpQ0?autoplay=1&playlist=sVCA5ZGdpQ0&loop=1&mute=1"
           title="Prewedding of Putri & Iqbal"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -662,37 +662,39 @@
         day: d.getDate(),
         enableUtc: false,
       });
-      // BASE URL
-      const BASE_URL = "https://frozen-beyond-66664.herokuapp.com/";
 
-      // GET data Wishes
-      const wishesItem = ({ name, message, createdAt }) => `<div
-      id="wishes-item"
-      class="feature-left"
-      style="background-color: rgb(250, 250, 250); padding: 1rem"
-      >
-      <span class="icon">
-        <i class="icon-chat"></i >
-        </span>
-        <div class="feature-copy">
-          <h3 style="font-size: 1.5rem">${name}</h3>
-          <p style="text-align: justify">${message}</p>
-          <span>${createdAt && dayjs(createdAt).fromNow()}</span>
-          </div>
-          </div>`;
+      $(document).ready(() => {
+        // BASE URL
+        const BASE_URL = "https://frozen-beyond-66664.herokuapp.com/";
 
-      $.get(BASE_URL + "wishes", ({ data }, status) => {
-        if (data) {
-          let elements = $();
-          data.forEach(({ name, post, createdAt }) => {
-            elements = elements.add(
-              wishesItem({ name, message: post, createdAt })
-            );
-          });
-          $("#wishes-list").html(elements);
-        }
+        // GET data Wishes
+        const wishesItem = ({ name, message, createdAt }) => `<div
+        id="wishes-item"
+        class="feature-left"
+        style="background-color: rgb(250, 250, 250); padding: 1rem"
+        >
+        <span class="icon">
+          <i class="icon-chat"></i >
+            </span>
+            <div class="feature-copy">
+              <h3 style="font-size: 1.5rem">${name}</h3>
+              <p style="text-align: justify">${message}</p>
+              <span>${createdAt && dayjs(createdAt).fromNow()}</span>
+              </div>
+              </div>`;
+
+        $.get(BASE_URL + "wishes", ({ data }, status) => {
+          if (data) {
+            let elements = $();
+            data.forEach(({ name, post, createdAt }) => {
+              elements = elements.add(
+                wishesItem({ name, message: post, createdAt })
+              );
+            });
+            $("#wishes-list").html(elements);
+          }
+        });
       });
-
       // Post Wishes
       const buttonLoading = `<span> <i class="fa fa-spinner fa-spin"></i> Loading </span>`;
       $(document).ready(function () {
