@@ -8,47 +8,18 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Wedding Invitation | Putri & Iqbal</title>
+    <title>The Wedding of Putri & Iqbal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
     <meta
       name="keywords"
       content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive"
     />
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mini&display=swap"
-      rel="stylesheet"
-    />
-    <!-- vaficon -->
     <meta name="author" content="FREEHTML5.CO" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
-
-    <!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FREEHTML5.CO
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
 
     <!-- Facebook and Twitter integration -->
     <meta property="og:title" content="" />
@@ -70,7 +41,29 @@
       href="https://fonts.googleapis.com/css?family=Sacramento"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mini&display=swap"
+      rel="stylesheet"
+    />
     <!-- Animate.css -->
     <link rel="stylesheet" href="css/animate.css" />
     <!-- Icomoon Icon Fonts-->
@@ -94,70 +87,657 @@
     <!--[if lt IE 9]>
       <script src="js/respond.min.js"></script>
     <![endif]-->
+    <style>
+      .videowrapper {
+        float: none;
+        clear: both;
+        width: 100%;
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 25px;
+        height: 0;
+      }
+      .videowrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      .toggleMusic {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 999;
+        opacity: 1;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+      }
+    </style>
   </head>
   <body>
-    <div class="fh5co-loader"></div>
+    <div id="depan">
+      <div class="fh5co-loader"></div>
 
-    <header
-      id="fh5co-header"
-      class="fh5co-cover"
-      role="banner"
-      style="background-image: url(images/gallery-4.jpg)"
-      data-stellar-background-ratio="0.5"
-    >
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2 text-center">
-            <div class="display-t">
-              <div class="display-tc animate-box" data-animate-effect="fadeIn">
-                <h2
-                  style="
-                    font-family: 'Roboto Mono', monospace;
-                    margin-top: 2rem;
-                  "
+      <header
+        aria-label=""
+        id="fh5co-header"
+        class="fh5co-cover"
+        role="banner"
+        style="background-image: url(images/gallery-4.jpg)"
+        data-stellar-background-ratio="0.5"
+      >
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <div class="display-t">
+                <div
+                  class="display-tc animate-box"
+                  data-animate-effect="fadeIn"
                 >
-                  THE WEDDING OF
-                </h2>
-                <h1
-                  style="
-                    font-family: 'Roboto Mono', monospace;
-                    margin-top: 2rem;
-                  "
-                >
-                  Putri & Iqbal
-                </h1>
-                <h2>Minggu, 13 November 2022</h2>
-
-                <div class="fh5co-section-gray">
-                  <h5 style="color: #fff">Yth. Bapak/Ibu/Saudara/i</h5>
                   <h2
-                    id="to"
-                    style="font-family: 'Roboto Mini', monospace"
-                  ></h2>
-
-                  <div class="row">
-                    <p style="color: #fff; font-size: small; line-height: 1">
-                      Tanpa mengurangi rasa hormat, Kami mengundang
-                      Bapak/Ibu/Saudara/i untuk hadir di acara Pernikahan Kami.
-                    </p>
-                  </div>
-                  <h2>
-                    <a href="wedding.html" class="btn btn-default btn-warning"
-                      >Buka Undangan</a
-                    >
+                    style="
+                      font-family: 'Roboto Mono', monospace;
+                      margin-top: 2rem;
+                    "
+                  >
+                    THE WEDDING OF
                   </h2>
-                  <div class="simply-countdown simply-countdown-one"></div>
+                  <h1
+                    style="
+                      font-family: 'Roboto Mono', monospace;
+                      margin-top: 2rem;
+                    "
+                  >
+                    Putri & Iqbal
+                  </h1>
+                  <h2>Minggu, 13 November 2022</h2>
+
+                  <div class="fh5co-section-gray">
+                    <h5 style="color: #fff">Yth. Bapak/Ibu/Saudara/i</h5>
+                    <h2
+                      id="to"
+                      style="font-family: 'Roboto Mini', monospace"
+                    ></h2>
+
+                    <div class="row">
+                      <p style="color: #fff; font-size: small; line-height: 1">
+                        Tanpa mengurangi rasa hormat, Kami mengundang
+                        Bapak/Ibu/Saudara/i untuk hadir di acara Pernikahan
+                        Kami.
+                      </p>
+                    </div>
+                    <h2>
+                      <a href="#" class="btn btn-default btn-warning" id="open"
+                        >Buka Undangan</a
+                      >
+                    </h2>
+                    <div class="simply-countdown simply-countdown-one"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="gototop js-top">
+        <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+      </div>
+    </div>
+    <div id="isi" hidden>
+      <div class="fh5co-loader"></div>
+      <div class="toggleMusic">
+        <span class="btn btn-primary" id="toggle" onclick="togglePlay()">
+          <i class="icon-pause">Pause</i>
+        </span>
+      </div>
+
+      <header
+        aria-label=""
+        id="fh5co-header"
+        class="fh5co-cover"
+        role="banner"
+        style="background-image: url(images/img_bg_2.jpg)"
+        data-stellar-background-ratio="0.5"
+      >
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <div class="display-t">
+                <div
+                  class="display-tc animate-box"
+                  data-animate-effect="fadeIn"
+                >
+                  <span style="color: #fff">THE WEDDING OF</span>
+                  <h1 style="font-family: 'Roboto Mono', monospace">
+                    Putri | Iqbal
+                  </h1>
+                  <h2>13 November 2022</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div id="fh5co-couple">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box"
+            >
+              <p>Assalamu'alaikum Warahmatullahi Wabarakatuh</p>
+              <p>
+                Maha Suci Allah Subhanahu wa Ta'ala yang telah menciptakan
+                makhluk-Nya berpasang-pasangan. Ya Allah, perkenankanlah dan
+                Ridhoilah Pernikahan Kami.
+              </p>
+            </div>
+          </div>
+          <div class="couple-wrap animate-box">
+            <div
+              class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box"
+            >
+              <h2>Pasangan Mempelai</h2>
+            </div>
+            <div class="couple-half">
+              <div class="bride">
+                <img
+                  src="images/bride.jpg"
+                  alt="bride"
+                  class="img-responsive"
+                />
+              </div>
+              <div class="desc-bride animate-box">
+                <h3>Putri Agustina Sholihat, S.Pd.</h3>
+                <p>Putri pertama dari Bapak Dadeng Saputra & Ibu Siti Aisah.</p>
+              </div>
+            </div>
+            <div class="couple-half animate-box">
+              <div class="groom">
+                <img
+                  src="images/groom.jpg"
+                  alt="groom"
+                  class="img-responsive"
+                />
+              </div>
+              <div class="desc-groom">
+                <h3>Iqbal Bahari, S.Kom.</h3>
+                <p>
+                  Putra bungsu dari Bapak Bambang Nursyahbudi (Alm) & Ibu Euis
+                  Sumarni.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="margin: 0 !important">
+        <div
+          class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box"
+        >
+          <div id="fh5co-gallery" class="fh5co-section-gray">
+            <div class="row">
+              <div
+                class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box"
+              >
+                <span>Countdown</span>
+                <h2>Our Wedding Day</h2>
+                <div class="simply-countdown simply-countdown-one"></div>
+                <p>
+                  "Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia
+                  menciptakan pasangan untukmu dari jenismu sendiri, agar kamu
+                  cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di
+                  antaramu rasa kasih dan sayang. Sungguh, pada yang demikian
+                  itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi
+                  kaum yang berpikir."
+                </p>
+                <p>- Q.S. Ar-Rum : 21 -</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="fh5co-event"
+        class="fh5co-bg"
+        style="background-image: url(images/img_bg_3.jpg)"
+      >
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box"
+            >
+              <span>Waktu dan Tempat</span>
+              <h2>Pernikahan</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="display-t">
+              <div class="display-tc">
+                <div class="col-md-10 col-md-offset-1">
+                  <div class="col-md-6 col-sm-6 text-center">
+                    <div class="event-wrap animate-box">
+                      <h3>Akad Nikah</h3>
+                      <div class="event-col">
+                        <i class="icon-clock"></i>
+                        <span>08:00 WIB </span>
+                        <span>s/d selesai</span>
+                      </div>
+                      <div class="event-col">
+                        <i class="icon-calendar"></i>
+                        <span>Minggu</span>
+                        <span>13 November 2022</span>
+                      </div>
+                      <span>Gedung Pala Bogor</span>
+                      <span>Jl. Gg Pala, Tamansari, Kab. Bogor</span>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6 text-center">
+                    <div class="event-wrap animate-box">
+                      <h3>Resepsi</h3>
+                      <div class="event-col">
+                        <i class="icon-clock"></i>
+                        <span>10:00 WIB</span>
+                        <span>s/d selesai</span>
+                      </div>
+                      <div class="event-col">
+                        <i class="icon-calendar"></i>
+                        <span>Minggu</span>
+                        <span>13 November 2022</span>
+                      </div>
+                      <span>Gedung Pala Bogor</span>
+                      <span>Jl. Gg Pala, Tamansari, Kab. Bogor</span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box"
+                    >
+                      <span
+                        ><iframe
+                          title="maps"
+                          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7925.969286804128!2d106.758619!3d-6.6488245!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69cfab803f4013%3A0xb7f8a04c5b5fcdd2!2sGedung%20Pala%20Bogor!5e0!3m2!1sid!2sid!4v1665835847878!5m2!1sid!2sid"
+                          width="100%"
+                          height="200rem"
+                          style="border: 0"
+                          allowfullscreen=""
+                          loading="lazy"
+                          referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe
+                      ></span>
+                      <h2>
+                        <a
+                          href="https://goo.gl/maps/CJvzMRVqtmMvSXVx7"
+                          class="btn btn-default btn-warning"
+                          >Lihat Lokasi</a
+                        >
+                      </h2>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </header>
+      <div id="fh5co-couple-story">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box"
+            >
+              <span>Sebuah Kisah Perjalanan Kami</span>
+              <h2>Our Story</h2>
+              <p>
+                Celahmu akan dianggap sempurna oleh hati yang memang ditakdirkan
+                untukmu.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-md-offset-0">
+              <ul class="timeline animate-box">
+                <li class="animate-box">
+                  <div
+                    class="timeline-badge"
+                    style="background-image: url(images/couple-1.jpg)"
+                  ></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3 class="timeline-title">Pertama Bertemu</h3>
+                      <span class="date">26 Agustus 2021</span>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        Perjalanan cerita kita dimulai dari instagram,
+                        dikenalkan oleh salah satu rekan kerja Putri yang
+                        kebetulan merupakan teman Iqbal juga. Setelah kita
+                        saling sapa dan mulai akrab Iqbal menemui Putri ke
+                        Bogor.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted animate-box">
+                  <div
+                    class="timeline-badge"
+                    style="background-image: url(images/couple-2.jpg)"
+                  ></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3 class="timeline-title">Menjalin Hubungan</h3>
+                      <span class="date">September 2021</span>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        Semenjak pertemuan itu, kita semakin intens
+                        berkomunikasi dan kemudian asmara itu muncul. Walau kita
+                        terpaut oleh jarak Bogor-Bandung (LDR-an), namun bukan
+                        penghalang untuk jalannya hubungan kita.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="animate-box">
+                  <div
+                    class="timeline-badge"
+                    style="background-image: url(images/couple-4.jpg)"
+                  ></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3 class="timeline-title">Bertunangan</h3>
+                      <span class="date">3 Maret 2022</span>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        6 bulan kemudian dari setelah kita saling mengenal dan
+                        telah merasakan LDR. Pada 3 Maret 2022 kedua keluarga
+                        saling bertemu dan melaksanakan acara lamaran.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted animate-box">
+                  <div
+                    class="timeline-badge"
+                    style="background-image: url(images/couple-3.jpg)"
+                  ></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3 class="timeline-title">Menikah</h3>
+                      <span class="date">13 November 2022</span>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        Akhirnya setelah menjalin hubungan dengan suka dan duka,
+                        tibalah moment spesial pernikahan kami yg dilaksanakan
+                        pada 13 November 2022. Semoga tanggal ini menjadi saksi
+                        untuk kita mengikat janji setia dan Allah berikan berkah
+                        bagi kami sebagai sebuah keluarga yg sakinah, mawaddah,
+                        warrohmah.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <div class="gototop js-top">
-      <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+      <div id="fh5co-gallery" class="fh5co-section-gray">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box"
+            >
+              <span>MOMEN</span>
+              <h2>Bahagia Kami</h2>
+              <p>
+                Sederhana dalam mencintai, ikhlas menerima kekurangan, dan setia
+                dalam menjalin hubungan.
+              </p>
+            </div>
+          </div>
+          <div class="row row-bottom-padded-md">
+            <div class="col-md-12">
+              <ul id="fh5co-gallery-list">
+                <li
+                  class="one-third animate-box"
+                  data-animate-effect="fadeIn"
+                  style="background-image: url(images/gallery-1.jpg)"
+                ></li>
+                <li
+                  class="one-third animate-box"
+                  data-animate-effect="fadeIn"
+                  style="background-image: url(images/gallery-4.jpg)"
+                ></li>
+
+                <li
+                  class="one-third animate-box"
+                  data-animate-effect="fadeIn"
+                  style="background-image: url(images/gallery-3.jpg)"
+                ></li>
+                <li
+                  class="one-third animate-box"
+                  data-animate-effect="fadeIn"
+                  style="background-image: url(images/gallery-2.jpg)"
+                ></li>
+
+                <li
+                  class="one-third animate-box"
+                  data-animate-effect="fadeIn"
+                  style="background-image: url(images/gallery-5.jpg)"
+                ></li>
+                <li
+                  class="one-third animate-box"
+                  data-animate-effect="fadeIn"
+                  style="background-image: url(images/gallery-6.jpg)"
+                ></li>
+
+                <li
+                  class="one-third animate-box"
+                  data-animate-effect="fadeIn"
+                  style="background-image: url(images/gallery-7.jpg)"
+                ></li>
+
+                <li
+                  class="one-third animate-box"
+                  data-animate-effect="fadeIn"
+                  style="background-image: url(images/gallery-8.jpg)"
+                ></li>
+                <li
+                  class="one-third animate-box"
+                  data-animate-effect="fadeIn"
+                  style="background-image: url(images/gallery-9.jpg)"
+                ></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="fh5co-services" class="fh5co-section-gray">
+        <div class="container">
+          <iframe
+            width="100%"
+            height="350rem"
+            src="https://www.youtube.com/embed/sVCA5ZGdpQ0?autoplay=1&playlist=sVCA5ZGdpQ0&loop=1&mute=1"
+            title="Prewedding of Putri & Iqbal"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <div id="fh5co-gallery" class="fh5co-section-gray">
+        <div class="container">
+          <div class="row row-bottom-padded-md">
+            <div class="col-md-12">
+              <ul id="fh5co-gallery-list">
+                <li class="one-third" style="background-size: contain">
+                  <div
+                    style="
+                      border: 0.1rem solid #000;
+                      border-radius: 0.5rem;
+                      margin-bottom: 2rem;
+                      padding: 0.1rem;
+                    "
+                  >
+                    <img
+                      src="images/bank/bca-iqbal.jpeg"
+                      alt="bca-iqbal"
+                      width="100%"
+                    />
+                    <div class="text-center bottom">
+                      <span class="col">Iqbal Bahari</span>
+                      <br />
+                      <span>BCA</span>
+                      <br />
+                      <span>7771683162</span>
+                    </div>
+                  </div>
+                  <div
+                    style="
+                      border: 0.1rem solid #000;
+                      border-radius: 0.5rem;
+                      margin-bottom: 2rem;
+                      padding: 0.1rem;
+                    "
+                  >
+                    <img
+                      src="images/bank/mandiri-iqbal.jpeg"
+                      alt="mandiri-iqbal"
+                      width="100%"
+                    />
+                    <div class="text-center bottom">
+                      <span class="col">Putri Agustina Sholihat</span>
+                      <br />
+                      <span>Mandiri</span>
+                      <br />
+                      <span>1240010437276</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="fh5co-testimonial ">
+        <div class="container">
+          <div class="row" style="margin: 0 !important">
+            <div class="row animate-box">
+              <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                <span>Best Wishes</span>
+                <h2>Friends Wishes</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 animate-box">
+                <div class="wrap-testimony">
+                  <div
+                    class="fh5co-section-gray"
+                    style="max-height: 50rem; overflow-y: scroll; padding: 2rem"
+                    id="wishes-list"
+                  >
+                    <div
+                      id="wishes-item"
+                      class="feature-left"
+                      style="
+                        background-color: rgb(250, 250, 250);
+                        padding: 1rem;
+                      "
+                    >
+                      <span class="icon">
+                        <i class="icon-chat"></i>
+                      </span>
+                      <div class="feature-copy">
+                        <h3 style="font-size: 1.5rem">Name</h3>
+                        <p style="text-align: justify">
+                          Facilis ipsum reprehenderit nemo molestias. Aut cum
+                          mollitia reprehenderit. Eos cumque dicta adipisci
+                          architecto culpa amet.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fh5co-testimonial">
+        <div class="container">
+          <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+            <h2 class="text-center" style="font-size: 3rem">Doa dan Ucapan</h2>
+          </div>
+          <form action="#">
+            <div class="row form-group">
+              <div class="col-md-6">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  class="form-control"
+                  placeholder="Your name"
+                />
+              </div>
+            </div>
+
+            <div class="row form-group">
+              <div class="col-md-12">
+                <label for="message">Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  required
+                  rows="10"
+                  class="form-control"
+                  placeholder="Write us something"
+                ></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary" id="post-wishes">
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <footer id="fh5co-footer" role="contentinfo">
+        <div class="container">
+          <div class="row copyright">
+            <div class="col-md-12 text-center">
+              <p>
+                <small class="block"
+                  >&copy; 2022 Balsky. All Rights Reserved.</small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <div class="gototop js-top">
+        <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+      </div>
     </div>
 
     <!-- jQuery -->
@@ -179,33 +759,120 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/magnific-popup-options.js"></script>
 
-    <!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
     <script src="js/simplyCountdown.js"></script>
     <!-- Main -->
     <script src="js/main.js"></script>
-
+    <!-- dayjs -->
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.5/dayjs.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.5/plugin/relativeTime.js"></script>
     <script>
-      var d = new Date(2022, 10, 13, 08, 0, 0, 0);
-      console.log(d);
-      // default example
-      simplyCountdown(".simply-countdown-one", {
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate(),
-      });
+      dayjs.extend(window.dayjs_plugin_relativeTime);
+    </script>
+    <script>
+      // Music
+      var audio = new Audio("music/celine_dion_because_you_loved_me.mp3");
+      function togglePlay() {
+        if (audio.paused) {
+          $("#toggle").html(`<i class="icon-pause">Pause</i>`);
+          return audio.play();
+        } else {
+          $("#toggle").html(`<i class="icon-play">Play</i>`);
+          return audio.pause();
+        }
+      }
 
-      //jQuery example
-      $("#simply-countdown-losange").simplyCountdown({
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate(),
-        enableUtc: false,
+      $(document).ready(() => {
+        const urlParams = new URLSearchParams(window.location.search);
+        const param_to = urlParams.get("to");
+        $("#to").append(param_to);
+
+        var d = new Date(2022, 10, 13, 08, 0, 0, 0);
+
+        // default example
+        simplyCountdown(".simply-countdown-one", {
+          year: d.getFullYear(),
+          month: d.getMonth() + 1,
+          day: d.getDate(),
+        });
+
+        //jQuery example
+        $("#simply-countdown-losange").simplyCountdown({
+          year: d.getFullYear(),
+          month: d.getMonth() + 1,
+          day: d.getDate(),
+          enableUtc: false,
+        });
+
+        // Open undangan
+        $("#open").click((e) => {
+          e.preventDefault();
+          $("#depan").hide();
+          $("#isi").show();
+          togglePlay();
+        });
+
+        // BASE URL
+        const BASE_URL = "https://frozen-beyond-66664.herokuapp.com/";
+        // GET data Wishes
+        const wishesItem = ({ name, message, createdAt }) => `<div
+        id="wishes-item"
+        class="feature-left"
+        style="background-color: rgb(250, 250, 250); padding: 1rem"
+        >
+        <span class="icon">
+          <i class="icon-chat"></i >
+            </span>
+            <div class="feature-copy">
+              <h3 style="font-size: 1.5rem">${name}</h3>
+              <p style="text-align: justify">${message}</p>
+              <span>${createdAt && dayjs(createdAt).fromNow()}</span>
+              </div>
+              </div>`;
+
+        $.get(BASE_URL + "wishes", ({ data }, status) => {
+          if (data) {
+            let elements = $();
+            data.forEach(({ name, post, createdAt }) => {
+              elements = elements.add(
+                wishesItem({ name, message: post, createdAt })
+              );
+            });
+            $("#wishes-list").html(elements);
+          }
+        });
+
+        // Post Wishes
+        const buttonLoading = `<span> <i class="fa fa-spinner fa-spin"></i> Loading </span>`;
+        $("#post-wishes").click(function (e) {
+          e.preventDefault();
+          const name = $("#name").val();
+          const message = $("#message").val();
+          if (name && message) {
+            $("#post-wishes").attr("disabled", true);
+            $("#post-wishes").html(buttonLoading);
+            $.post(BASE_URL + "wishes", {
+              name,
+              post: message,
+            })
+              .then(({ data }) => {
+                $("#wishes-list").prepend(
+                  wishesItem({
+                    name: data.name,
+                    message: data.post,
+                    createdAt: data.createdAt,
+                  })
+                );
+                $("#post-wishes").attr("disabled", false);
+                $("#post-wishes").html("Send Message");
+                $("#name").val(null);
+                $("#message").val(null);
+              })
+              .done((done) => {
+                $("#post-wishes").blur();
+              });
+          }
+        });
       });
-      const urlParams = new URLSearchParams(window.location.search);
-      const param_to = urlParams.get("to");
-      $("#to").append(param_to);
     </script>
   </body>
 </html>
