@@ -60,10 +60,6 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mini&display=swap"
-      rel="stylesheet"
-    />
     <!-- Animate.css -->
     <link rel="stylesheet" href="css/animate.css" />
     <!-- Icomoon Icon Fonts-->
@@ -807,6 +803,10 @@
           year: d.getFullYear(),
           month: d.getMonth() + 1,
           day: d.getDate(),
+          hours: d.getHours(),
+          minutes: d.getMinutes(),
+          seconds: d.getSeconds(),
+          enableUtc: false,
         });
 
         //jQuery example
@@ -814,6 +814,9 @@
           year: d.getFullYear(),
           month: d.getMonth() + 1,
           day: d.getDate(),
+          hours: d.getHours(),
+          minutes: d.getMinutes(),
+          seconds: d.getSeconds(),
           enableUtc: false,
         });
 
